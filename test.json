@@ -1,0 +1,32 @@
+{
+  "Datas": [
+    {
+      "FCODE": "590008",
+      "SHORTNAME": "中邮战略新兴产业混合"
+    },
+    {
+      "FCODE": "000592",
+      "SHORTNAME": "建信改革红利股票"
+    },
+    {
+      "FCODE": "519983",
+      "SHORTNAME": "长信量化先锋混合A"
+    },
+    {
+      "FCODE": "161024",
+      "SHORTNAME": "富国中证军工指数分级"
+    },
+    {
+      "FCODE": "210002",
+      "SHORTNAME": "金鹰红利价值"
+    },
+    {
+      "FCODE": "000009",
+      "SHORTNAME": "易方达天天理财货币A"
+    }
+  ],
+  "ErrCode": 0,
+  "ErrMsg": null,
+  "TotalCount": 5517,
+  "Expansion": null
+}

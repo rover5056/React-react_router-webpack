@@ -1,0 +1,114 @@
+@keyframes addone {
+    from {
+        opacity: 1;
+        transform:translate(0,-100%);
+    }
+    to {
+        opacity: 0;
+         transform:translate(0,-300%);
+    }
+}
+
+@-webkit-keyframes addone {
+    from {
+        opacity: 1;
+         transform:translate(0,-100%);
+    }
+    to {
+        opacity: 0;
+      transform:translate(0,-300%);
+    }
+}
+.praise_operate_zone{
+    text-align: center;
+    line-height: 40px;
+    margin: 0px 0 10px;
+    position: relative;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+        flex-wrap: wrap;
+    justify-content:space-around;
+    padding: 0 15px;
+    .addOne{
+        opacity: 1;
+        width: 50px;
+        position: absolute;
+        right: 10px;
+        flex:0;
+        color:red;
+        animation: addone 1s ease;
+        animation-fill-mode: forwards;
+    }
+}
+
+.operate_zone_button{
+    color: #fff;
+    font-size: 16px;
+    -webkit-flex: 3;
+    text-align: center;
+
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.praise_button{
+    .operate_zone_button;
+    background: #1bc07c;
+        position: relative;
+}
+
+.operate_symbol {
+    font-size: 22px;
+    color: #ccc;
+    font-weight: 700;
+    -webkit-flex: 1;
+}
+
+.critical_button{
+     .operate_zone_button;
+    background: #f24957;
+}
+.voidbtn{
+   color: #fff;
+    font-size: 16px;
+    -webkit-flex: 3;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    background: #999;
+}
+.percentage{
+    display: flex;
+    display: -webkit-flex;
+     justify-content:space-between;
+     width: 100%;
+     padding: 0;
+     height: 15px;
+     line-height: 15px;
+     margin-bottom: 5px;
+     p{
+        width: 65px;
+        padding: 0;
+        font-size: 15px;
+        text-align: right;
+     }
+      p:first-child{
+        text-align: left;
+     }
+}
+.linear{
+    position: relative;
+    height: 6px;    
+     width: 100%; 
+   background-color: #f24957;
+   margin-bottom: 15px;
+   div{
+    position: absolute;
+    height: 100%;
+    width: 100px;
+    background-color: #1bc07c;
+    border-right: 3px solid white;
+   }
+}

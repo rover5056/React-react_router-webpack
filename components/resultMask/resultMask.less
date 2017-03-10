@@ -1,0 +1,55 @@
+    .mask{
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow-y: hidden;
+
+    .content{
+        margin-top: 200px;
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        p{
+            font-size: 1rem;
+            padding: 10px 40px;
+            font-weight: 100;
+        }
+        .percentage{
+            display: flex;
+            display: -webkit-flex;
+             justify-content:space-between;
+             margin: 40px 40px 0;
+             padding: 0;
+             height: 25px;
+             p{
+                width: 70px;
+                padding: 0;
+                font-size: 15px;
+                text-align: right;
+             }
+        }
+        .linear{
+            position: relative;
+            height: 6px;     
+          margin: 5px 40px;
+           background-color: #f24957;
+           div{
+            position: absolute;
+            height: 100%;
+            width: 100px;
+            background-color: #1bc07c;
+            border-right: 3px solid white;
+           }
+        }
+    }
+    .close{
+        text-align: center;
+        font-size: 35px;
+        margin-top: 60px;
+        color: #999;
+    }
+}
